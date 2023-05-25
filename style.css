@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: brown;
+    color: beige;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.leftt{
+    font-size:1.2rem ;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 24px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.first > div{
+    width: 35%;
+}
+.leftsec{
+    
+    width: 40px;
+    font-size: 2.5rem;
+    
+
+}
+.rightsec img{
+    width: 75%;
+    margin: 50px 0;
+}
+span{
+    color: rgb(154, 154, 187);
+    font-size: 2rem;
+    
+
+}
+ul a:hover{
+    color: black;
+    cursor: cell;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+}
+.second h1{
+    margin-top: 25px;
+}
+.second ul{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.second ul li{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(154, 154, 187);
+}
+.third{
+    max-width: 80vw;
+    margin: auto;
+}
+.third h1{
+    margin-top: 25px;
+}
+.third ul{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.third ul li{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(154, 154, 187);
+}
+.fourth{
+    max-width: 80vw;
+    margin: auto;
+}
+.fourth h1{
+    margin-top: 25px;
+}
+.pro{
+    display: flex;
+    padding: 40px;
+    justify-content:space-around;
+}
+button{
+    width: 120px;
+    height: 55px;
+    background-color: rgb(29, 132, 166);
+    color: rgb(245, 238, 238);
+    font-size: 25px;
+}
+
+
